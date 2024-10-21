@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List - Desafío</title>
+    <link rel="stylesheet" href="./assert/css/styles.css">
+</head>
+<body>
+
+
+    <main>
+        <!-- Sección para agregar nuevas tareas -->
+        <section class="add-task-section">
+            <input type="text" id="taskInput" placeholder="Nueva tarea...">
+            <button id="addTaskBtn">Agregar tarea</button>
+        </section>
+
+        <!-- Sección del resumen de tareas -->
+        <section class="summary-section">
+            <h2>Resumen de Tareas</h2>
+            <p>Total de tareas: <span id="totalTasks">0</span></p>
+            <p>Tareas completadas: <span id="completedTasks">0</span></p>
+        </section>
+
+        <!-- Sección de la lista de tareas -->
+        <section class="task-list-section">
+            <h2>Lista de Tareas</h2>
+            <ul id="taskList" class="task-list"></ul>
+        </section>
+    </main>
+
+    <script src="./assert/js/app.js"></script>
+</body>
+</html>
